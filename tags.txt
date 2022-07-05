@@ -1,0 +1,6 @@
+List of the tags
+
+<strong> --> It is used to bring the importance to the element.By default , it makes the selected part bold.
+
+<em> --> It is used for styling a particular section of the code which we can alter later into the CSS.
+
