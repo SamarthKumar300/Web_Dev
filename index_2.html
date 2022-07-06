@@ -30,6 +30,9 @@
       video{
         width: 500px;
       }
+      tfoot{
+        text-align: left;
+      }
     </style>
   </head>
   <body>
@@ -109,25 +112,91 @@
     <table>
       <thead>
         <tr>
+          <th colspan="2">
+            Expenses
+          </th>
+        </tr>
+        <tr>
           <th>Cateogry</th>
           <th>Amount </th>  
         </tr>
-        <tr>
-          <td>Mareketing</td>
-          <td>$200</td>
-        </tr>
-        <tr>
-          <td>Designing</td>    
-          <td>$300</td>
-        </tr>
-        <tr>
-          <td>Development</td>
-          <td>$200</td>
-        </tr>
-
       </thead>
+        <tbody>
+          <tr>
+            <td>Mareketing</td>
+            <td>$200</td>
+          </tr>
+          <tr>
+            <td>Designing</td>    
+            <td>$300</td>
+          </tr>
+          <tr>
+            <td>Development</td>
+            <td>$200</td>
+          </tr>
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <th>Total</th>
+            <th>$300</th>
+          </tr>
+        </tfoot>  
     </table>
 
+    <!-- Containers -->
 
+    <!-- There are number fof types of the container and the most commonly use container is the div  -->
+    <!-- DIV is an blockline element which means that it will take the entire width of the screen by default -->
+    <style>
+      div{
+        background-color: yellow;
+        width: 50%;
+      }
+    </style>
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, modi fugit. Nesciunt esse, adipisci sit at fuga minima consequatur, dignissimos pariatur fugit error quis molestiae dolore distinctio corrupti facere reiciendis! 
+      </p>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- How DIV and SPAN are different fromm each other -->
+
+    <style>
+      .highlight{
+        background-color: red;
+      }
+    </style>
+    <p>
+      <div class="highlight">Lorem ipsum</div>  dolor sit amet consectetur adipisicing elit. Sit perferendis explicabo, delectus aperiam enim dignissimos nemo! Amet deserunt minima, debitis tempora, unde eveniet rem, alias recusandae ratione animi perferendis fugiat?
+    </p>
+
+    <br>
+    <!-- SPAN  -->
+    <p>
+      <span class="highlight">Lorem ipsum</span>  dolor sit amet consectetur adipisicing elit. Sit perferendis explicabo, delectus aperiam enim dignissimos nemo! Amet deserunt minima, debitis tempora, unde eveniet rem, alias recusandae ratione animi perferendis fugiat?
+    </p>
+
+
+    <!-- SEMANTIC ELEMENTS: There are the others containers tyoe which is used instead of SPAN and DIV -->
+
+    <article>
+      <h1>
+        Heading
+      </h1>
+      <p>
+        Published <time datetime="2021-01-01 15:00"> July 06 2022 23:35</time>
+      </p>
+      <p>
+        <mark>Lorem ipsum</mark> dolor sit, amet consectetur adipisicing elit. Repellat iusto placeat officia, ad magni sapiente possimus itaque est ut! Quae impedit ratione rem porro recusandae sint aut consequatur amet. Dolore?
+      </p>
+      <figure>
+        <img src="images/ink 2.png" alt="Image of an tattoo ink">
+      </figure>
+    </article>
   </body>
 </html>
