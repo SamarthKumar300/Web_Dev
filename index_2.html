@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,6 +14,23 @@
     />
     <!-- The above meta data is used to give a small description of the website user will be visiting -->
     <title>Document</title>
+    <style>
+      table,td,tr{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+
+      }
+      img{
+        width: 200px;
+        height: 600px;
+        object-fit: cover;
+
+      }
+      video{
+        width: 500px;
+      }
+    </style>
   </head>
   <body>
     <h1>Samarth Kumar</h1> 
@@ -35,12 +53,81 @@
     </p>
     <br>
     <h2 id="section-css">CSS
-      Grraphic Designer
+      Graphic Designer
     </h2>
     <p>
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur ea maiores ipsum beatae aperiam officia perferendis non sapiente optio nihil, quia inventore commodi dolor voluptate perspiciatis hic illo explicabo, voluptatem sed atque impedit nostrum quo ipsam. Placeat deserunt exercitationem expedita eaque quis omnis voluptates perferendis reprehenderit quos eveniet dolor esse, voluptas, ut cumque in! Non deserunt ratione repudiandae nobis sapiente aut at, maxime ducimus animi quam. Voluptatum labore error repellendus, reiciendis, quae excepturi laborum quos ea reprehenderit laudantium facilis sequi? Officiis, cumque eligendi quasi incidunt corrupti perspiciatis! Aliquam omnis molestiae tempora, sunt, veniam mollitia nulla harum voluptatem accusamus assumenda maxime!
     </p>
     <a href="#">Jump to Top</a>
     <a href="https://google.com" target="_blank">Search anything</a>
+    <img src="images/ink 2.png" alt="A tattoo ink">
+    <br>
+
+    <!-- Video and Audio Controls  -->
+    <video controls  loop src="videos/flowers.mp4">You browser doesn't support the video</video>
+    <audio controls src="audio/lofi music.mp3"></audio>
+    <br>
+
+    <!-- Unordered List -->
+    <ul>
+      <li>Home</li>
+      <li>About
+          <ul>
+            <li>Education</li>
+            <li>Occupation</li>
+            <li>Experience</li>
+          </ul>
+      </li>  
+      <li>Section</li>
+      <li>Blogs</li>
+      <li>Data</li>
+    </ul>
+
+    <br>
+
+    <!-- Ordered List -->
+    <ol>
+      <li>First Login and Signup</li>
+      <li>Go to homepage</li>
+      <li>Select the  course you like</li>
+    </ol>
+
+    <!-- Descriptive List  -->
+    <dl>
+      <dt>Name</dt>
+        <dd>Hi there mmy name is Samarth Kumar</dd>
+      <dt>Education</dt>
+        <dd>I am a 3rd yr engineering student</dd>
+      <dt>Skills</dt>
+        <dd>Right now , I am working as a Graphic and UI Designer </dd>
+    </dl>
+
+    <br>
+
+    <!-- Tables  -->
+
+    <table>
+      <thead>
+        <tr>
+          <th>Cateogry</th>
+          <th>Amount </th>  
+        </tr>
+        <tr>
+          <td>Mareketing</td>
+          <td>$200</td>
+        </tr>
+        <tr>
+          <td>Designing</td>    
+          <td>$300</td>
+        </tr>
+        <tr>
+          <td>Development</td>
+          <td>$200</td>
+        </tr>
+
+      </thead>
+    </table>
+
+
   </body>
 </html>

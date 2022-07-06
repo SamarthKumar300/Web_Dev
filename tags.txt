@@ -1,5 +1,7 @@
 List of the tags
 
+
+---> HTML 
 <strong> --> It is used to bring the importance to the element.By default , it makes the selected part bold.
 
 <em> --> It is used for styling a particular section of the code which we can alter later into the CSS.
@@ -9,4 +11,5 @@ NOTE ---> 1. We can use wrap abbreviation through which we can wrap an abbreviat
           2. In order to use the < and > sign in the HTML as a alphabet instead of the tag we have to use ENTITIES.
                 Link to the ENTITIES list : https://www.w3schools.com/html/html_entities.asp
           3. To stick two words together if they are breaking up , we use &nbsp; so that the twowors always sticck together.
-          
+
+      
