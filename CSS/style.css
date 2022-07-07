@@ -6,3 +6,46 @@ p{
     color: blue;
     font-weight: bold;
 }
+
+.product{
+    color: red;
+}
+
+#newproduct{
+    color: blue;
+}
+
+a[href="https://google.com"]
+{color: green;}
+
+/* A better way to write the above code is down below */
+
+a[href*=google] {
+    color: purple;
+}
+
+/* -----> This is used when the P is the direct child of the parent */
+/* #second_product p {
+    color: brown;       
+} */
+
+/* #second_product > p {
+    font-weight: bold;   ---> This is used when the P is grandchild in the hierarchy.
+    color: black;
+} */
+
+
+/* ---> This is used when the P is the direct sibling of the selector. */
+/* #second_product + p {
+    font-weight: bold;
+    font-style: italic;  
+     
+    color: black;
+} */
+
+/*This is used when the P is the general sibling of the selector */
+#second_product ~ p{
+    font-weight: bold;
+    font-size: larger;
+    font-style: italic;
+}
