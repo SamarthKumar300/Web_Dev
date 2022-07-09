@@ -74,11 +74,58 @@ a[href*=google] {
     font-size: 70%;
 } */
 
-/* How to style an unordered list */
+/* How to style an ordered list */
 ul li:nth-child(odd){
     color: deeppink;
 }
 
+/* How to style an ordered list  */
 ul li:nth-child(even){
     color:deepskyblue;
 }
+
+/* How to style an ordered list  */
+ul li :nth-child(3n){
+    color: green;
+}
+
+/* Adding Styling to the link */
+
+a:hover a:focus{
+    color: blanchedalmond;
+}
+
+a:visited ,a:link{
+    color: brown;
+}
+
+
+p::first-letter{
+    font-size: 140%;
+    font-weight: bold;
+}
+
+/* For making the selection in the first line */
+p::first-line{
+    font-size: large;
+    font-weight: bold;
+}
+
+/* For making the selection change color */
+p::selection{
+    background-color: blue;
+}
+
+/* For adding something before an HTML Tag */
+p::before{
+    content: " ...........";
+}
+
+p::after{
+    content: "end";
+}
+
+
+
+/* SELECTORS SPECIFICITY */
+

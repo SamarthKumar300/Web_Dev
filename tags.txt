@@ -13,3 +13,11 @@ NOTE ---> 1. We can use wrap abbreviation through which we can wrap an abbreviat
           3. To stick two words together if they are breaking up , we use &nbsp; so that the twowors always sticck together.
 
       
+: ----> Single Colon is used for the Pseudo Classes and 
+::  ---> Double Colon is used for the Pseudo Elements
+
+Pseudo Classes are used for styling the elements in the particular state
+Pseudo elements are used for styling the elements .
+
+
+
