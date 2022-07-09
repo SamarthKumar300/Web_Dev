@@ -49,3 +49,36 @@ a[href*=google] {
     font-size: larger;
     font-style: italic;
 }
+
+
+/* Pseudo Selectors */
+
+/* If we want to use any first child then we have to use this code */
+/* article :first-of-type{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 140%;
+} */
+
+/* If we want to use the last child to get stylized we have to use  */
+/* article :last-of-type{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 70%;
+} */
+
+/* If we want to use the specific child to get stylized we have to use  */
+/* article p:last-of-type{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 70%;
+} */
+
+/* How to style an unordered list */
+ul li:nth-child(odd){
+    color: deeppink;
+}
+
+ul li:nth-child(even){
+    color:deepskyblue;
+}
