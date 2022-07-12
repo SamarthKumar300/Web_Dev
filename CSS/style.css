@@ -129,3 +129,7 @@ p::after{
 
 /* SELECTORS SPECIFICITY */
 
+h1{
+    color: green;
+}
+
